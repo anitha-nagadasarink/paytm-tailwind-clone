@@ -17,7 +17,7 @@ Works fine across devices desktop design starts from 1920px and mobile starts fr
 
 ### Demo :
 
-![Web Site Image](https://github.com/anitha-nagadasarink/paytm-tailwid-clone/blob/HTML-CSS-Projects/Assets/desktop.pngg)
+![Web Site Image](https://github.com/anitha-nagadasarink/paytm-tailwid-clone/blob/HTML-CSS-Projects/Assets/desktop.png)
 
 ### You can Check it Live on Below Link :
 
