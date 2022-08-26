@@ -1,5 +1,6 @@
 
 ## Project Name : **Paytm Clone !**
+![badge](https://img.shields.io/badge/iNeuron-LCO-green) ![badge](https://img.shields.io/badge/Hitesh--Choudhary-Full%20Stack%20Javascript%20Course-orange)
 
 This project is Homepage of Paytm. Taken reference from [Paytm.com](https://paytm.com/) production website.  Developed with pure HTML,Tailwind CSS, minimal CSS and Javascri.
 Works fine across devices desktop design starts from 1920px and mobile starts from 767px resolutions.
