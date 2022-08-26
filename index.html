@@ -39,12 +39,35 @@
       background: #00baf2;
       border-radius: 50px;
     }
+      /* Mobile Menu */
+@media only screen and (max-width: 991px) {
+  .nav-items {
+    display: none;
+  }
+  .nav-items.active {
+    display: block;
+    position: absolute;
+    content: ' ';
+    top: 60px;
+    width: 200px;
+    left: 0;
+    background-color: #fff;
+    z-index: 999;
+  }
+  .nav-items.active li{
+    display: block;
+  }
+
+  nav a .fa-bars {
+    display: block;
+  }
+}
   </style>
   <script>
     tailwind.config = {
       theme: {
         screens: {
-          sm: '767px',       
+          sm: '767px',
 
           md: '768px',
 
@@ -69,11 +92,11 @@
   <!-- Header Section Start -->
   <header class="shadow shadow-blue md:shadow-indigo-500/40">
     <nav class="flex w-11/12 mx-auto justify-between items-center sm:py-0 md:py-4">
-      <div class="xl:hidden">
+      <div class="xl:hidden mobile-menu">
         <i class="fas fa-bars text-2xl" aria-hidden="true"></i>
       </div>
       <img class="w-[180px]" src="./Assets/paytm_logo.png" alt="logo" />
-      <ul class="space-x-1 hidden xl:flex">
+      <ul class="nav-items space-x-1 hidden xl:flex">
         <li class="hover:bg-gray-100 py-[6px] px-2  rounded cursor-pointer">
           <a class="font-semibold text-base">Paytm for Consumer</a>
         </li>
@@ -802,6 +825,15 @@
   </footer>
   <div class="py-1 bg-blueLight"></div>
   <div class="py-1 bg-blueDark"></div>
+
+  <script>
+    var navMenu =  document.querySelector('.nav-items');
+    document.querySelector('.mobile-menu').addEventListener('click', function(e){
+      e.preventDefault();
+      document.querySelector('.mobile-menu i').classList.toggle('fa-close');
+      navMenu.classList.toggle('active');
+    })
+  </script>
 </body>
 
 </html>

@@ -1,7 +1,7 @@
 
 ## Project Name : **Paytm Clone !**
 
-This project is Homepage of Paytm. Taken reference from [Paytm.com](https://paytm.com/) production website.  Developed with pure HTML,Tailwind CSS and minimal CSS.
+This project is Homepage of Paytm. Taken reference from [Paytm.com](https://paytm.com/) production website.  Developed with pure HTML,Tailwind CSS, minimal CSS and Javascri.
 Works fine across devices desktop design starts from 1920px and mobile starts from 767px resolutions.
 
 </br>
@@ -16,8 +16,8 @@ Works fine across devices desktop design starts from 1920px and mobile starts fr
 
 ### Demo :
 
-![Web Site Image](./Assets/screencapture-127-0-0-1-5500-index-html-2022-08-20-18_32_06.png)
+![Web Site Image](https://github.com/anitha-nagadasarink/paytm-tailwid-clone/blob/HTML-CSS-Projects/Assets/desktop.pngg)
 
 ### You can Check it Live on Below Link :
 
-[Live Link !](https://paytm-new.netlify.app/)
+[Live Link !](https://paytm-tailwind-clone-new.netlify.app/)
